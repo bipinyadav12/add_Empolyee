@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Employees</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>New Employees</h2>
+      <div class="formcontainer">
+        <div class="namebox">
+          <label for="name">Enter Name</label><br />
+          <input type="text" id="name" placeholder="Name" required />
+        </div>
+        <div class="professionbox">
+          <label for="profession">Enter Profession</label><br />
+          <input
+            type="text"
+            id="profession"
+            placeholder="Profession"
+            required
+          />
+        </div>
+        <div class="agebox">
+          <label for="age">Enter Age</label><br />
+          <input type="number" id="age" placeholder="Age" required /><br />
+        </div>
+      </div>
+      <button id="add-employee">Add User</button>
+      <p id="message"></p>
+      <h3>Added Employees</h3>
+      <div id="employee-list">
+        <p>You have 0 Employees.</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
